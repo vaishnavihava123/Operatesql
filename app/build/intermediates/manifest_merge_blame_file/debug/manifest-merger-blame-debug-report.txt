@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.operatesql"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:6:5-30:19
+15        android:allowBackup="true"
+15-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\TataStrive\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:fullBackupContent="true"
+18-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:13:9-41
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:8:9-43
+20        android:label="@string/app_name"
+20-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:9:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:10:9-54
+22        android:supportsRtl="true"
+22-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:11:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:12:9-40
+25        <activity android:name="com.example.operatesql.MainActivity" >
+25-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:14:9-20:20
+25-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:14:19-47
+26            <intent-filter>
+26-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:15:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:16:17-69
+27-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:16:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:18:17-77
+29-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.example.operatesql.MovieListingActivity" >
+32-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:21:9-27:20
+32-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:21:19-55
+33            <intent-filter>
+33-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:22:13-26:29
+34                <action android:name="android.intent.action.VIEW" />
+34-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:23:17-69
+34-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:23:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:25:17-76
+36-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:25:27-73
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.example.operatesql.MovieUpdateDeleteActivity" />
+39-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:28:9-63
+39-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:28:19-60
+40        <activity android:name="com.example.operatesql.AddMovieActivity" />
+40-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:29:9-54
+40-->D:\urmila\Operatesql\app\src\main\AndroidManifest.xml:29:19-51
+41    </application>
+42
+43</manifest>
